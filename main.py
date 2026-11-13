@@ -594,11 +594,6 @@ For 20s after Arlecchino uses All Is Ash, both her Normal Attacks and Elemental 
 
 #arlecchino file ended
 
-from dataclasses import dataclass
-from FischlFile import *
-from ClorindeFile import *
-from ArlecchinoFile import *
-from KokomiFile import *
 
 
 '''ENDGOAL: I need to have a general dataclass that I could use for ANY genshin character
