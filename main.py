@@ -992,7 +992,7 @@ def filterCharacters(cleanInputs: list[str]) -> list[Character]:
         print(filteredCharacter.name)
     return returnFilteredCharacters
     
-#chars =filterCharacters2(cleanUpSearch("weapon: bow, weapon: catalyst"))
+#chars =filterCharacters(cleanUpSearch("weapon: bow, weapon: catalyst"))
 
 #f#or char in chars:
    # print(char.name)
@@ -1071,7 +1071,7 @@ def search(state: State, query: str) -> Page:
         return characterOverviewPage(state)
 
     else:
-        filteredCharacters = filterCharacters2(cleanedInput)
+        filteredCharacters = filterCharacters(cleanedInput)
         state.results = [character.name for character in filteredCharacters]
 
         if state.results:
