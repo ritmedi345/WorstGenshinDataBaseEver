@@ -1,6 +1,7 @@
 from drafter import *
 from dataclasses import dataclass
 from pythonGenshinCharacters import *
+from mainGenshinCharactersNonDrafter import *
 
 @dataclass
 class State:
