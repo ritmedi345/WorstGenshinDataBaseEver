@@ -1,6 +1,11 @@
 from drafter import *
 from dataclasses import dataclass
-from pythonGenshinCharacters import *
+from FischlFile import *
+from ArlecchinoFile import *
+from ClorindeFile import *
+from KokomiFile import *
+
+#from pythonGenshinCharacters import *
 #from mainGenshinCharactersNonDrafter import *
 
 set_website_title("Genshin Database Prototype")
