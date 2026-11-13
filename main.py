@@ -9,7 +9,7 @@ class State:
     results: list[str]
     message: str
 
-def getCharacterByName(fullName: str) -> Character:
+def getCharacterByName(fullName: str) -> character:
     for character in characters:
         if character.name == fullName:
             return character
